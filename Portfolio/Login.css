@@ -1,0 +1,127 @@
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400');
+
+body, html {
+  margin: 0px;
+  background: #000000;
+  height: 100%;
+}
+
+canvas {
+  display: block;
+      width: 100%;
+      height: 100%;
+}
+
+
+.container {
+  margin: 0;
+  top: 200px;
+  left: 50%;
+  position: absolute;
+  text-align: center;
+  transform: translateX(-50%);
+  background-color: hsla(0, 0%, 0%, 0); 
+  border-radius: 10px;
+  width: 400px;
+  height: 500px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.404);
+  backdrop-filter: blur(0px);
+}
+
+.box h5 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  color: #e6e6e6;
+  letter-spacing: 1.5px;
+  margin-top: 80px;
+  margin-bottom: 70px;
+}
+
+.box input[type = "text"],.box input[type = "password"] {
+  display: block;
+  margin: 20px auto;
+  background: #262e49;
+  border: 2px hsla(hue, saturation, lightness, alpha);
+  border-radius: 5px;
+  padding: 14px 10px;
+  width: 320px;
+  outline: none;
+  color: #d6d6d6;
+    -webkit-transition: all .2s ease-out;
+    -moz-transition: all .2s ease-out;
+    -ms-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+  
+}
+::-webkit-input-placeholder {
+  color: #c5c5c5;
+}
+
+.box input[type = "text"]:focus,.box input[type = "password"]:focus {
+  border: 1.5px solid #578fff;
+  
+}
+
+a{
+  color: #5c7fda;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.btn1 {
+  border: 0.1px solid white;
+  background-color: hsla(0, 0%, 0%, 0.235);
+  color: #dfdeee;
+  border-radius: 100px;
+  width: 340px;
+  height: 49px;
+  font-size: 16px;
+  position: absolute;
+  top: 79%;
+  left: 8%;
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.btn1:hover {
+  background: #000000c4;
+}
+
+.rmb {
+  position: absolute;
+  margin-left: -24%;
+  margin-top: 0px;
+  color: #dfdeee;
+  font-size: 13px;
+}
+
+.forgetpass {
+  position: relative;
+  float: right;
+  right: 28px;
+}
+
+.dnthave{
+    position: absolute;
+    top: 92%;
+    left: 24%;
+}
+
+.typcn {
+  position: absolute;
+  left: 339px;
+  top: 282px;
+  color: #3b476b;
+  font-size: 22px;
+  cursor: pointer;
+}      
+
+.typcn.active {
+  color: #7f60eb;
+}
